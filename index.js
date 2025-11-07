@@ -33,8 +33,7 @@ for (var i = 0; i < 20; i++)
 
     if (Math.random() < 0.5)
     {
-        // const newWord = chalk.gray(usableWords[randomWithin(usableWords.length)]);
-        const newWord = "within";
+        const newWord = chalk.gray(usableWords[randomWithin(usableWords.length)]);
 
         if (Math.random() < 0.5)
             randomWord += " " + newWord;
